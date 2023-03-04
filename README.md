@@ -1,7 +1,7 @@
-# wu-lab-rho-mmo-paper
+# mmo-analysis
 
 [![DOI](https://zenodo.org/badge/doi/Tong2023paperlink.svg)](http://dx.doi.org/) <br/>
-**`wu-lab-rho-mmo-paper` is an open-source repository for a collection of MATLAB(R) scripts used for analysis in: Tong et al. (2023) Periodicity, mixed-mode oscillations, and multiple timescales in a phosphoinositide-Rho GTPase network. For further details on the methods of analysis, please refer to the methods section in the manuscript that can be found in the DOI link above.** <br/>
+**`mmo-analysis` is an open-source repository for a collection of MATLAB(R) scripts used for analysis in: Tong et al. (2023) Periodicity, mixed-mode oscillations, and multiple timescales in a phosphoinositide-Rho GTPase network. For further details on the methods of analysis, please refer to the methods section in the manuscript that can be found in the DOI link above.** <br/>
 
 Written by [XJ Xu](https://github.com/xj-xu).<br/>
 Last updated February 28, 2023.
@@ -26,7 +26,7 @@ Usage
 =====
 Input
 ------
-`wu-lab-rho-mmo-paper` takes in a pre-processed data in the form of a .xlsx spreadsheet. An example dataset `Rho-demo-data.xlsx` is included for demonstration. Briefly, to obtain such a dataset, an image stack is acquired during total internal fluorescence (TIRF) time-lapse imaging of active GTP-bound RhoA pulses as observed via the fluorescently tagged rGBD sensor. A region of interest (ROI) is chosen on the cell - typically a 3x3 &mu;M square - for quantification of the average ROI fluorescence intensity as a function of time. The example spreadsheet has 4 sheets to store the necessary information and each column in the respective sheets correspond to a given ROI (or cell).
+`mmo-analysis` takes in a pre-processed data in the form of a .xlsx spreadsheet. An example dataset `Rho-demo-data.xlsx` is included for demonstration. Briefly, to obtain such a dataset, an image stack is acquired during total internal fluorescence (TIRF) time-lapse imaging of active GTP-bound RhoA pulses as observed via the fluorescently tagged rGBD sensor. A region of interest (ROI) is chosen on the cell - typically a 3x3 &mu;M square - for quantification of the average ROI fluorescence intensity as a function of time. The example spreadsheet has 4 sheets to store the necessary information and each column in the respective sheets correspond to a given ROI (or cell).
 | time series | time interval | perturbation | meta |
 |--|--| --| --|
 | Data points of fluorescence intensity averaged over the pixels contained in the ROI | Image acquisition interval in seconds, e.g. one frame acquired every 4 seconds. | Image stack frame number for addition of pharmacological perturbations, such as Nocodazole. |  Info of date and condition of experiment, location of raw data etc  |
@@ -34,7 +34,7 @@ Input
 Demonstration
 ------
   1. Get the file path and name for the dataset you wish to analyze. For the demonstration, `'Rho-demo-data.xlsx'` is kept in the same directory as the `toRun.m` script.
-  2. Run `wu-lab-rho-mmo-paper` on `'Rho-demo-data.xlsx'` by entering the following in the command window:
+  2. Run `mmo-analysis` on `'Rho-demo-data.xlsx'` by entering the following in the command window:
 ```matlab
 toRun('Rho-demo-data.xlsx');
 ```
