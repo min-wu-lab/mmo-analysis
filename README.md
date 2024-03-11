@@ -3,7 +3,7 @@
 [![DOI](https://zenodo.org/badge/doi/Tong2023paperlink.svg)](https://www.biorxiv.org/content/10.1101/2023.05.22.541800v1) <br/>
 **`mmo-analysis` is an open-source repository for a collection of MATLAB(R) scripts used for analysis in: Tong et al. (2023) Periodicity, mixed-mode oscillations, and multiple timescales in a phosphoinositide-Rho GTPase network. For further details on the methods of analysis, please refer to the methods section in the manuscript that can be found in the DOI link above.** <br/>
 
-Written by [XJ Xu](https://github.com/xj-xu).<br/>
+Written by Min Wu and [XJ Xu](https://github.com/xj-xu).<br/>
 Last updated February 28, 2023.
 
 Installation
