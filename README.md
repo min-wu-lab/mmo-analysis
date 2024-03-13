@@ -82,7 +82,7 @@ where $U$ is the Heaviside step function; $a$ is a normalization constant; while
 More information
 ================
 * For more information about how each function is implemented, please refer to the source code docstrings in  `/src` . 
-* Contact [XJ](xj.xu@yale.edu) if issues with this version of the repository arise.
+* Documentation written by [XJ Xu](xj.xu@yale.edu), feel free to reach out if issues arise from this version of the repository.
 > All rights and permissions belong to <br/>
 > [Wu Lab, Yale University](https://medicine.yale.edu/lab/wu/) <br/>
 > February 26, 2023
